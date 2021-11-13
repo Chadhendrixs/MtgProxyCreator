@@ -1,0 +1,7 @@
+autocorrect==2.5.1
+numpy==1.19.1
+opencv_python==4.4.0.44
+Pillow==8.4.0
+pytesseract==0.3.6
+requests==2.21.0
+tqdm==4.55.1
