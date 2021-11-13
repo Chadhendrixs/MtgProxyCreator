@@ -25,3 +25,5 @@ Either extract the current [Release](https://github.com/Chadhendrixs/MtgProxyCre
 cd MtgProxyCreator
 pip install -r requirements.txt
 ```
+
+The most important part of building it yourself, is making sure to install Tesseract. Download the newest version of Tesseract from [here](https://digi.bib.uni-mannheim.de/tesseract/), and install it into the file named "Tesseract" within the project. Otherwise, the module `cardCopywrite.py` will error when trying to initialize pyTesseract.
